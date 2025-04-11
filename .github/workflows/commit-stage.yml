@@ -6,6 +6,10 @@ env:
   IMAGE_NAME: rafeeq-rs/catalog-service
   VERSION: latest
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   build:
     name: Build and Test
